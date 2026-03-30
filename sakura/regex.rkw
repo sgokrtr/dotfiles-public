@@ -1,0 +1,9 @@
+﻿// 正規表現キーワード Ver1
+RxKey[000]=URL,/(?<=")(\b[a-zA-Z]:|\B\\\\)[^"\r\n]*/k
+RxKey[001]=URL,/(\b[a-zA-Z]:\\|\B\\\\)[\w\-_.\\\/$%~]*/k
+RxKey[002]=RK1,/^\s*■.*/k
+RxKey[003]=CMT,/^\s*#.*/k
+RxKey[004]=RK2,/^\s*>.*/k
+RxKey[005]=RK2,/^\s*＞.*/k
+RxKey[006]=RK3,/^\s*`.*/k
+RxKey[007]=RK4,/^\s*@.*/k
